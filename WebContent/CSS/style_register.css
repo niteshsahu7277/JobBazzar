@@ -1,0 +1,42 @@
+/* * {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-image: url("https://d3kqdc25i4tl0t.cloudfront.net/articles/content/141_383073_160119formatsforresume_Smith_hero.jpg");
+    background-size: fixed;
+    background-repeat: no-repeat;
+}
+ */
+.register_table {
+    display: flex;
+    height: 300px;
+    justify-content: left;
+    align-items: center;
+}
+
+table tr td {
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.rcorners {
+    border-radius: 5px;
+    border: 1px solid #73AD21;
+    /* padding: 20px; */
+    width: 250px;
+    height: 30px;
+}
+
+.button {
+    align-items: right;
+    width: 100px;
+    font-weight: bold;
+    /* height: 30px; */
+}
+
+.button:hover {
+    /* color: aqua; */
+    background: #73AD21;
+    cursor: pointer;
+}
